@@ -278,7 +278,7 @@ void Menu::DrawItems(int x, int y, int w)
 		// lista de opções
 		draw.Text(x + w - w/4 - 30, itemOffset + 5, this->items[i].display[this->items[i].value], color, false, TextAlignment::kRight);
 
-		if (IsMouseOver(x - 5, itemOffset + 5, w - w/4 - 20, 16))
+		if (this->IsMouseOver(x - 5, itemOffset + 5, w - w/4 - 20, 16))
 		{
 			this->itemInfo.index = i - this->FirstScrollIndex() + this->scrollInfo.index;
 			this->MouseNavigation(i);
