@@ -11,10 +11,10 @@ Simple menu with C++ and D3D9
 
 ## Shortcuts
 * Tabs and items
-  * Shift + Up: go to the first item
-  * Shift + Down: go to the last item
-  * Shift + Left: previous tab
-  * Shift + Right: next tab
+  * Shift + ↑: go to the first item
+  * Shift + ↓: go to the last item
+  * Shift + ←: previous tab
+  * Shift + →: next tab
 * Menu color
-  * Ctrl + Left: previous menu color
-  * Ctrl + Right: next menu color
+  * Ctrl + ←: previous menu color
+  * Ctrl + →: next menu color
